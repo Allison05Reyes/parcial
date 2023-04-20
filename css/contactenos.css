@@ -1,0 +1,155 @@
+ body{
+   background-image: url(../img/fondo.png); 
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+        color: white;
+     }
+     ::placeholder{
+color: white;
+     }
+     .contenedor{
+      margin: 20px;
+      width: 50%;
+      padding: 50px;
+     }
+     .seccion{
+      display: flex;
+      flex-direction: row;
+     }
+     .imagen1{
+      margin-right: 10px;
+     }
+     .formulario{
+     padding: 30px;
+
+     }
+     .formulario input,label,select{
+      display: inline-block;
+      width: 100%;
+      margin: 3% 0;
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+  }
+  .formulario > .btnIngresa{
+   width: 50%;
+  }
+  .separador{
+   display:flex;
+  }
+  .separador> input{
+   background-color: transparent;
+   border: none;
+   border-bottom: 1px solid white;
+   width: 100%px;
+  }
+  .separador2>input {
+   background-color: transparent;
+   border: none;
+   border-bottom: 3px solid white;
+   height: 35px;
+   width: 100%;
+}
+.separador>label{
+   margin-right: 10px;
+   text-align: left;
+}
+  .h1{
+   font-size: 0.8cm;
+  }
+  .separadorinp{
+   display: flex;
+   justify-content: space-around;
+  }
+  .separadorinp > input{
+      background-color: transparent;
+      border: none;
+      border-bottom: 3px solid white;
+      width: 280px;
+      padding: 10px;
+     }
+     textarea{
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      border-bottom: 3px solid white;
+     }
+     button{
+      position: relative;
+      left: 60px;
+      width: 80%;
+      height: 40px;
+      margin: 10px;
+      border-radius: 20px;
+      background-color: rgb(226, 226, 47);
+      color: white;
+      font-size: 25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: none;
+     }
+     h1{
+      color:white;
+      position: relative;
+      margin: 3% 0;
+    
+       }
+    h2{
+      color:white;
+      position: relative;
+      padding: 10px;
+   }
+   h3{
+
+      color:white;
+      position: relative;
+      margin: 10px;
+   }
+ 
+ h1{
+
+
+ }
+
+
+ .resolucion {
+   width: 99%;
+   text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+   .desktop {
+       display: none;
+   }
+   .tablet {
+       display: none;
+   }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+   .desktop {
+       display: none;
+   }
+   .movil {
+       display: none;
+   }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+   .tablet {
+       display: none;
+   }
+   .movil {
+       display: none;
+   }
+}
